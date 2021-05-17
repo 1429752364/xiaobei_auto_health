@@ -45,7 +45,7 @@ headers = {
 }
 
 random_tem_x=random.randint(3, 8)
-random_tem_y=random.randint(35,36)
+random_tem_y=36#random.randint(35,36)
 random_tem=random_tem_y+random_tem_x*0.1   #体温随机
 
 location_x=113.59
