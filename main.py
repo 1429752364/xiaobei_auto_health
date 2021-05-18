@@ -7,9 +7,9 @@ import os
 username = os.environ.get('IDCODE')
 password = os.environ.get('PASSWORD')
 sckey = os.environ.get('SCKEY')
-my_sender = os.environ.get('MYSENDER')
-my_pass = os.environ.get('MYPASS')
-my_user = os.environ.get('MYUSER')
+#my_sender = os.environ.get('MYSENDER')
+#my_pass = os.environ.get('MYPASS')
+#my_user = os.environ.get('MYUSER')
 
 print(tools.health_parameter)
 
