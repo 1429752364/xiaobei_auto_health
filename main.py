@@ -77,9 +77,9 @@ if __name__ == '__main__':
         if status == "操作成功":
             print("北温打完毕。")
             tools.server(sckey, "北温打完毕")
-            tools.mail(my_sender, my_pass, my_user, "北温打完毕")
+            #tools.mail(my_sender, my_pass, my_user, "北温打完毕")
         else:
             print("我也不知道啥情况，自己看输出结果 debug 下或者自己手动北温打吧？")
             print("返回的打卡结果是:   " + status)
             tools.server(sckey, "北温打失败，请手动北温打")
-            tools.mail(my_sender, my_pass, my_user, "北温打失败，请手动北温打")
+            #tools.mail(my_sender, my_pass, my_user, "北温打失败，请手动北温打")
